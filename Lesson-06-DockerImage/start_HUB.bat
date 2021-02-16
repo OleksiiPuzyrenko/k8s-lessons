@@ -1,0 +1,1 @@
+docker run -it  -p 1234:80  adv4000/k8sphp

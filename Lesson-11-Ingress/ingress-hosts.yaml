@@ -10,28 +10,28 @@ metadata:
 
 spec:
   rules:
-  - host: www.adv-it.net
+  - host: kubehost1
     http:
       paths:
         - backend:
            serviceName: main
            servicePort: 80
 
-  - host: web1.adv-it.net
+  - host: kubehost2
     http:
       paths:
         - backend:
            serviceName: web1
            servicePort: 80
 
-  - host: web2.adv-it.net
+  - host: kubehost3
     http:
       paths:
         - backend:
            serviceName: web2
            servicePort: 80
 
-  - host: cat.adv-it.net
+  - host: kubehost4
     http:
       paths:
         - backend:

@@ -26,7 +26,7 @@ kubectl expose deployment tomcat --port 8080
 
 kubectl get services -o wide
 
-kubectl apply -f ingress-hosts.yaml
+kubectl apply -f k8s-lessons\Lesson-11-Ingress\ingress-hosts.yaml
 kubectl apply -f ingress-paths.yaml
 kubectl get ingress
 kubectl describe ingress

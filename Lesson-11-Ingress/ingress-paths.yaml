@@ -10,7 +10,7 @@ metadata:
 
 spec:
   rules:
-  - host: www.adv-it.net
+  - host: kubehost1
     http:
       paths:
       - path: "/page1"
